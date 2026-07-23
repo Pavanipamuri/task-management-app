@@ -1,0 +1,201 @@
+/* General Style */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    min-height: 100vh;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+/* Home Page Hero */
+
+.hero {
+
+    padding: 100px 20px;
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    color: white;
+
+}
+
+
+.hero h1 {
+
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+
+.hero p {
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+/* Feature Cards */
+
+.features {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+.card {
+
+    border-radius: 15px;
+    border: none;
+
+}
+
+
+
+.card h3 {
+
+    color: #333;
+
+}
+
+
+
+
+
+/* Authentication Box */
+
+.auth-box {
+
+    max-width: 450px;
+
+    margin: 80px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+
+}
+
+
+
+
+
+
+
+/* Dashboard Cards */
+
+.dashboard-card {
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+
+
+
+
+/* Task Card */
+
+.task-card {
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:15px;
+
+    border-radius:12px;
+
+    box-shadow:
+    0 3px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+.task-card h4 {
+
+    color:#333;
+
+}
+
+
+
+
+
+/* Buttons */
+
+.btn {
+
+    border-radius:8px;
+
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+
+    margin-top:50px;
+
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+
+    .hero h1{
+
+        font-size:32px;
+
+    }
+
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+
+    .auth-box{
+
+        margin:40px 15px;
+
+    }
+
+}
